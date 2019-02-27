@@ -2,7 +2,8 @@
   Blink async, rosso  ogni 500 ms, verde ogni 700 ms
 
  esercitazione lezione 1 corso Arduino 2019 Golem
-  
+
+  Vincenzo Nesta
 */
 // led rosso
 boolean stato_rosso = LOW;
@@ -22,8 +23,6 @@ void setup() {
   pinMode(pinLedVerde, OUTPUT);           // initialize digital pin led verde as an output.
   digitalWrite(pinLedVerde, stato_verde); // initialize led LOW.
 
-  pinMode(pinLedBlu, OUTPUT);
-  pinMode(pinBtn, INPUT_PULLUP);
 }
 
 // the loop function runs over and over again forever
