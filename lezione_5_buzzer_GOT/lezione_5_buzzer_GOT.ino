@@ -97,7 +97,7 @@
 #define NOTE_DS8 4978
 
 // Buzzer
-int speakerPin = 13;
+int speakerPin = 13;  // // Digital Pin 13
 
 // Leds
 int led1 = 12;

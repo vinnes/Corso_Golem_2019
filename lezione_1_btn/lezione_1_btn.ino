@@ -7,8 +7,8 @@
 
 boolean statoBtn;
 boolean statoBtn_old;
-const byte pinLedBlu = 13;
-const byte pinBtn = 2;
+const byte pinLedBlu = 10;
+const byte pinBtn = 7;
 
 
 void setup() {
